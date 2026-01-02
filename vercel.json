@@ -17,6 +17,10 @@
       "destination": "server/api/index.js"
     },
     {
+      "source": "/p/(.*)",
+      "destination": "server/api/index.js"
+    },
+    {
       "source": "/(.*)",
       "destination": "client/$1"
     }
