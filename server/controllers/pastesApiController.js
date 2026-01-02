@@ -61,8 +61,8 @@ exports.getPaste = async (req, res) => {
 
   res.json({
     content: paste.content,
-    remainingViews: paste.maxViews ? paste.maxViews - paste.views : null,
-    expiresAt: paste.expiresAt
+    remaining_views: paste.maxViews ? paste.maxViews - paste.views : null,
+    expires_at: paste.expiresAt ? paste.expiresAt.toISOString() : null
   });
 };
 
