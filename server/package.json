@@ -1,0 +1,16 @@
+{
+  "name": "pastebin-lite-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.19.2",
+    "mongoose": "^8.0.0",
+    "nanoid": "^5.0.0",
+    "nodemon": "^3.1.11"
+  }
+}
